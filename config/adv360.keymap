@@ -49,9 +49,9 @@
             bindings = <
                 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                                                        &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
                 &trans &trans &trans &trans &trans &trans  &none                                                                        &none &trans &trans &trans &trans  &trans  &trans
-                &trans &trans &trans &trans &trans &trans  &none        &trans &trans             &kp K_PREV   &kp K_NEXT               &none &trans &trans &trans &trans  &trans  &trans
-                &trans &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &kp K_VOL_UP &none            &none         &trans &trans &trans &trans  &trans  &trans
-                &trans &trans &trans &trans &trans               &trans &trans &trans             &kp K_VOL_DN &kp K_PLAY_PAUSE &trans               &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans &trans  &none        &trans &trans             &kp C_PREV   &kp C_NEXT               &none &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &kp C_VOL_UP &none            &none         &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans               &trans &trans &trans             &kp C_VOL_DN &kp C_PLAY_PAUSE &trans               &trans &trans &trans  &trans  &trans
             >;
         };
         mod {
